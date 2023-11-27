@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title> UH IntelliSun Table </title>
+        <header>
+           <h1> UH IntelliSun Table </h1>
+        </header>
+    </head>
+    <body>
+        <div>
+            <nav class="center-list">
+            <ul class="menu">
+                    <li> <a style="color:white;" href="Home.html"> Home</a> </li>
+                    <li><a style="color:white;" href="analytics.html">Analytics</a></li>
+                    <li><a style="color:white;" href="about.html" >About</a></li>
+                    <li><a style="color:white;" href="contact.html">Contact Us</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div class="card-table" id="table-availability-card">
+            <h2 align="Center">Table Availability</h2>
+            <div class="table-container">
+                <img id="Table1_img" src="Solar_Table.jpg" height="100" width="100">
+                <img id="Table2_img" src="Solar_Table.jpg" height="100" width="100">
+                <img id="Table3_img" src="Solar_Table.jpg" height="100" width="100">
+                <img id="Table4_img" src="Solar_Table.jpg" height="100" width="100">
+            </div>
+            <div class="svg-contrainer">
+                <svg width="900" height="60">
+                    <rect x="60" y="10" width="15" height="15" style="fill:rgb(0,255,0);stroke-width:5;stroke:rgb(0,0,0)" id="Table1"/>
+                    <rect x=270 y="10" width="15" height="15" style="fill:rgb(0,255,0);stroke-width:5;stroke:rgb(0,0,0)" id="Table2" />
+                    <rect x="470" y="10" width="15" height="15" style="fill:rgb(0,255,0);stroke-width:5;stroke:rgb(0,0,0)" id="Table3"/>
+                    <rect x="670" y="10" width="15" height="15" style="fill:rgb(0,255,0);stroke-width:5;stroke:rgb(0,0,0)" id="Table4"/>
+
+                    <text id="Table1_Availability" x="80" y="24" font-size="18" fill="black">Available</text>
+                    <text id="Table2_Availability" x="290" y="24" font-size="18" fill="black">Available</text>
+                    <text id="Table3_Availability" x="490" y="24" font-size="18" fill="black">Available</text>
+                    <text id="Table3_Availability" x="690" y="24" font-size="18" fill="black">Available</text>
+                </svg>
+                <script src="table_availability.js"></script>
+            </div>
+            <img id="pin1" src="red_pin.png" height="=15px" width="15px">
+            <img id="pin2" src="red_pin.png" height="=15px" width="15px">
+            <img id="pin3" src="red_pin.png" height="=15px" width="15px">
+            <img id="pin4" src="red_pin.png" height="=15px" width="15px">
+
+            <p id="location1">Engineering Bldg 1</p>
+            <p id="location2">Anderson Library</p>
+            <p id="location3">Student Center N</p>
+            <p id="location4">Arnold Hall</p>
+            
+            <button id="reserveButton">Reserve</button>
+            <div id="popup" class="popup">
+                <h2>Table Reservation</h2>
+                <div id="step1">
+                    <h3>Select a Date and Time</h3>
+                    <div id="dateOptions">
+                        <!-- Date options will be dynamically added here -->
+                    </div>
+                    <div class="button-container">
+                        <button id="nextButton">Next</button>   
+                    </div>
+                </div>
+            
+                <div id="step2" style="display: none;">
+                    <h3>Rules and Confirmation</h3>
+                    <!-- Display rules and confirmation here -->
+                    </div>
+                    <div class="button-container">
+                        <button id="confirmButton">Confirm Reservation</button>
+                        <button id="backButton">Back</button>
+                    </div>
+                </div>
+            
+                <div class="button-container">
+                    <button id="closePopup">Close</button>
+                </div>
+                <script src="popup.js"> </script>
+            </div>            
+            <!-- <img id="startship" src="starship.png" height="120" width="120">
+            <img id="starship-ios" src="startship_ios.png" height="120" width="120"> -->
+        </div>
+
+        <div class="card-hori">
+            <div class="card-uh-emergency">
+                <h1 align="center"> UH Alert Updates</h1>
+                <iframe id="embeddedWebsite" src="https://alerts.uh.edu/" width="100%" height="390"></iframe>
+                <script src="uh_alert.js"> </script>
+            </div>
+            <div class="card-weather">
+                <h1 align="center"> Weather Updates</h1>
+                    <iframe id="weather_embedded" src="https://uh.edu/itac/uh-weather/" width="100%" height="400" ></iframe>
+            </div>
+        </div>
+        </div>
+        <div class="card-mentalhealth">
+            <h1 align="center">Mental Health </h1>
+            <div class="iframe-container">
+                <div class="card-caps">
+                    <iframe id="caps" src="https://www.uh.edu/caps/" width="100%" height="370"></iframe>
+                    <!-- <script src="uh_alert.js"> </script> -->
+                </div>
+                <div class="card-coogs-care">
+                    <iframe id="coogs-care" src="https://uh.edu/coogs-care/" width="100%" height="370"></iframe>
+                    <!-- <script src="uh_alert.js"> </script> -->
+                </div>
+            </div>
+        </div>
+        <div class="card-mindfullness-timer">
+            <h1 align="center">Mindfullness</h1>
+            <div class="iframe-container">
+                <div class="card-meditation">
+                    <iframe id="mindfullness" src="https://zenmix.io/breathing-timer/" width="100%" height="370"></iframe>
+                    <!-- <script src="uh_alert.js"> </script> -->
+                </div>
+                <div class="card-timer">
+                    <iframe id="mindfullness-timer" src="https://meditationtimer.online/?d=600" width="100%" height="370"></iframe>
+                    <!-- <script src="uh_alert.js"> </script> -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

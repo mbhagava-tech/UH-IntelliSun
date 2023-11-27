@@ -1,0 +1,341 @@
+
+header{
+    background-color: #c83f3f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.menu{
+    background-color:gray;
+    color:white;
+    text-align:center;
+    justify-content:center;
+    display: inline-block;
+    padding: 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: white; /* Set the link color */
+    font-weight: bold;
+    font-size: 18px;
+}
+header {
+    background-color: #c83f3f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    justify-content:center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    color:white;
+}
+.center-list {
+    text-align: center; /* Center the list horizontally */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#Table1_img{
+    position: relative;
+    left: -150px; /* Move the second image 20 pixels to the right */
+    
+}
+
+#Table2_img {
+    position: relative;
+    left: -70px; /* Move the second image 20 pixels to the right */
+}
+
+#Table3_img {
+    position: relative;
+    left: 0px; /* Move the second image 20 pixels to the right */
+}
+
+#Table4_img {
+    position: relative;
+    left: 70px; /* Move the second image 20 pixels to the right */
+}
+
+#pin1 {
+    position: relative;
+    left:-355px; /* Move the second image 20 pixels to the right */
+    top:-25px;
+}      
+
+#location1
+{
+    position:relative;
+    top:-62px;
+    left:-305px;
+}
+
+
+#pin2 {
+    position: relative;
+    left:-163px; /* Move the second image 20 pixels to the right */
+    top:-25px;
+}
+
+#location2
+{
+    position:relative;
+    top:-95px;
+    left:-103px;
+}
+
+#pin3 {
+    top:-23px;
+    position: relative;
+    left:18px; /* Move the second image 20 pixels to the right */
+}
+
+#location3
+{
+    position:relative;
+    top:-128px;
+    left:100px;
+}
+#pin4 {
+    top:-25px;
+    position: relative;
+    left:200px; /* Move the second image 20 pixels to the right */
+}
+
+#location4
+{
+    position:relative;
+    top:-163px;
+    left:280px;
+}
+
+
+.card-table {
+    width: 950px;
+    height: 275px;
+    background-color: #f5f5f5;
+    margin: 10px auto; /* Center horizontally */
+    padding: 10px;
+    border: 1px solid #ddd;
+    /* box-shadow: 2px 2px 5px #888; */
+    text-align: center; /* Center text content horizontally */
+    justify-content: center; /* Center images horizontally within the container */
+    align-items: center; /* Center images vertically within the container */
+}
+
+.card-mentalhealth{
+    width: 975px;
+    height: 500px;
+    background-color: #f5f5f5;
+    margin: 10px auto; /* Center horizontally */
+    padding: 10px;
+    border: 1px solid #ddd;
+    /* box-shadow: 2px 2px 5px #888; */
+    text-align: center; /* Center text content horizontally */
+    justify-content: center; /* Center images horizontally within the container */
+    align-items: center; /* Center images vertically within the container */
+}
+
+.card-mindfullness-timer{
+    width: 975px;
+    height: 500px;
+    background-color: #f5f5f5;
+    margin: 10px auto; /* Center horizontally */
+    padding: 10px;
+    border: 1px solid #ddd;
+    /* box-shadow: 2px 2px 5px #888; */
+    text-align: center; /* Center text content horizontally */
+    justify-content: center; /* Center images horizontally within the container */
+    align-items: center; /* Center images vertically within the container */
+}
+
+.card-table h2 {
+    margin: 0; /* Remove margin to center the heading */
+}
+
+.table-container {
+    display: flex;
+    justify-content: center; /* Center images horizontally within the container */
+    align-items: center; /* Center images vertically within the container */
+}
+
+.table-container img {
+    margin: 10px; /* Add margin around images for spacing */
+}
+
+.svg-container {
+    margin-top:0px; /* Add margin to separate SVG from previous content */
+}
+/* .location-container{
+    margin-top:0px; /* Add margin to separate SVG from previous content 
+} */
+
+
+.card {
+    width:1450px;
+    height:450px;
+    background-color: #f5f5f5;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #888;
+    justify-content: center; /* Center images horizontally within the container */
+    align-items: center; /* Center images vertically within the container */
+
+}
+#startship
+{
+    position: relative; /* Use a positioning context */
+    top: -130px;
+
+}
+
+#starship-ios
+{
+    position: relative; /* Use a positioning context */
+    top: -155px;
+    left:100;
+}
+
+.card-hori
+{
+    width:1000px;
+    height:500px;
+    /* background-color: #f5f5f5; */
+    margin: 10px;
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+    /* box-shadow: 2px 2px 5px #888; */
+    display:flex;
+    flex:1;
+    /* background-color: #f5f5f5; */
+    margin: 10px auto; /* Center horizontally */
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+    /* box-shadow: 2px 2px 5px #888; */
+    text-align: center; /* Center text content horizontally */
+    justify-content: center; /* Center images horizontally within the container */
+    align-items: center; /* Center images vertically within the container */
+}
+
+.card-uh-emergency
+{
+    width:500px;
+    height:475px;
+    background-color: #f5f5f5;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    /* box-shadow: 2px 2px 5px #888; */
+    flex: 1;
+    /* display:flex; */
+}
+
+body {
+    background-image: url('nature.jpg');
+    background-color: lightblue; /* Fallback color */
+}
+
+.card-weather
+{
+
+    width:500px;
+    height: 495px;
+    background-color: #f5f5f5;
+    margin: 10px;
+    border: 1px solid #ddd;
+    flex: 1;
+    /* display:flex; */
+}
+
+.card-meditation
+{
+    width:475px;
+    height:370px;
+    background-color: #f5f5f5;
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid #ddd; */
+    flex: 1;
+
+}
+.card-timer
+{
+    width:475px;
+    height:370px;
+    background-color: #f5f5f5;
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid #ddd; */
+    flex: 1;
+
+}
+.card-caps
+{
+    width:475px;
+    height:375px;
+    background-color: #f5f5f5;
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid #ddd; */
+    flex: 1;
+}
+.card-coogs-care
+{
+    width:475px;
+    height:375px;
+    background-color: #f5f5f5;
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid #ddd; */
+    flex: 1;
+}
+.iframe-container {
+    display: flex;
+}
+.iframe-container iframe {
+    flex: 1;
+    margin: 10px;
+}
+.popup {
+            display: none;
+            position: fixed;
+            width:475px;
+            height:450px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+#reserveButton {
+    position: absolute;
+    top: 450px; /* Adjust the top position as needed */
+    left: 695px; /* Adjust the left position as needed */
+    /* Additional styling properties */
+    padding: 10px 20px;
+    background-color: #c83f3f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: center; /* Align buttons to the right */
+    margin-top: 20px; /* Add margin to create space between buttons and other content */
+}
+
